@@ -8,15 +8,20 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
     <link rel="stylesheet" href="style.css">
 </head>
-<body class="hero-anime">	
-
-	<nav class="navbar navbar-expand-lg navbar-dark bg-dark p-3">
+<body class="">	
+  <!-- ----------------PORTADA---------------- -->
+  <div class="container-nav-menu">
+    <section class="container">
+      <nav class="navbar navbar-expand-lg navbar-dark p-3">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">Navbar</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <a class="navbar-brand" href="#">
+            <span><img src="./src/img/icons/logo.png" alt=""></span>
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-        
+      
           <div class=" collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav ms-auto ">
               <li class="nav-item">
@@ -28,8 +33,13 @@
               <li class="nav-item">
                 <a class="nav-link mx-2" href="#">CLIENTE</a>
               </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link mx-2 dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <li class="nav-item">
+                <a class="nav-link mx-2" href="#">CONTACTO</a>
+              </li>
+              
+              <!-- <li class="nav-item dropdown">
+                <a class="nav-link mx-2 dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                  data-bs-toggle="dropdown" aria-expanded="false">
                   CONTACTO
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
@@ -37,18 +47,87 @@
                   <li><a class="dropdown-item" href="#">About Us</a></li>
                   <li><a class="dropdown-item" href="#">Contact us</a></li>
                 </ul>
+              </li> -->
+              <li class="nav-item d-flex align-items-center">
+                <a class="nav-link ms-2 d-flex align-items-center pe-0" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                  <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
+                </svg></a>
+              </li>
+              <li class="nav-item d-flex align-items-center">
+                <a class="nav-link d-flex align-items-center" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+                  <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
+                </svg></a>
               </li>
             </ul>
           </div>
         </div>
-        </nav>
-
+      </nav>
+      <div class="d-flex flex-column justify-content-center container-menu">
         <main class="d-flex flex-column justify-content-center ">
-            <h1>Jab Marketing</h1>
-            <p>El golpe de Marketing que tu empresa necesita.</p>
-            <p>Potenciamos marcas a través de estrategias de marketing innovadoras desarrolladas en conjunto con nuestros clientes.</p>
-            <a href="#">Agendá tu reunión gratis</a>
-          </main>
+          <h1 class="fs-5 text-light">Jab Marketing</h1>
+          <p class="fs-1 text-light lh-sm">El golpe de Marketing <br> que tu empresa necesita.</p>
+          <p class="text-light lh-sm">Potenciamos marcas a través de estrategias de marketing innovadoras desarrolladas<br> en conjunto con nuestros
+            clientes.</p>
+          <hr class="text-light">
+          <div class="d-flex align-items-center mt-3">
+            <span class="me-3"><img src="./src/img/icons/chevron.png" alt=""></span>
+            <a href="#" class="fs-5 fw-semibold">Agendá tu reunión gratis</a>
+          </div>
+        </main>
+    
+      </div>
+    </section>
+  </div>
+
+  <!-- ----------------SERVICIOS---------------- -->
+  <div class="container-services py-5">
+    <section class="container">
+      <h3 class="text-light mb-5 justify-content-center">Nuestros Servicios</h3>
+      <div class="row mb-5">
+        <article class="col-12 col-md-6 col-lg-4">
+          <span><img src="./src/img/icons/Icon-Branding.svg" alt=""></span>
+          <h4 class="text-light mt-2">Branding</h4>
+          <p class="text-light fs-5">Creemos en las primeras impresiones. Por lo que desarrollamos marcas importantes</p>
+        </article>
+        <article class="col-12 col-md-6 col-lg-4">
+          <span><img src="./src/img/icons/Icon-DWeb.svg" alt=""></span>
+          <h4 class="text-light mt-2">Desarrollo web & mobile</h4>
+          <p class="text-light fs-5">Desarrollamos sitios webs, landing page y aplicaciones mobiles para diferentes dispositivos. Además, brindamos soporte y mantenimiento.</p>
+        </article>
+        <article class="col-12 col-md-6 col-lg-4">
+          <span><img src="./src/img/icons/Icon-Marketing.svg" alt=""></span>
+          <h4 class="text-light mt-2">Marketing digital</h4>
+          <p class="text-light fs-5">Diseñamos y ejecutamos estrategias de marketing digital para lograr presencias digitales acordes al objetivo de nuestros clientes. Somos especialistas en Google Ads y Meta Ads.          </p>
+        </article>
+        <article class="col-12 col-md-6 col-lg-4">
+          <span><img src="./src/img/icons/Icon-CreacionC.svg" alt=""></span>
+          <h4 class="text-light mt-2">Creación de contenido</h4>
+          <p class="text-light fs-5">Contamos con el equipo y el recurso humano necesario para llevar el contenido de tu marca al siguiente nivel.
+          </p>
+        </article>
+        <article class="col-12 col-md-6 col-lg-4">
+          <span><img src="./src/img/icons/Icon-SMM.svg" alt=""></span>
+          <h4 class="text-light mt-2">Social media magnament</h4>
+          <p class="text-light fs-5">Nuestro servicio de gestión de redes socialies optimiza tu presencia digital, aumentando la participación con tu audiencia, logrando potenciar las ventas de tu negocio.
+          </p>
+        </article>
+        <article class="col-12 col-md-6 col-lg-4">
+          <span><img src="./src/img/icons/Icon-Consultoria.svg" alt=""></span>
+          <h4 class="text-light mt-2">Consultoría</h4>
+          <p class="text-light fs-5">Unimos todas nuestras hablidades y no enfocamos en potenciar la comunicación de tu negocio.</p>
+        </article>
+        
+      </div>
+      <div class="d-flex justify-content-between">
+        <div class="d-flex align-items-center mt-3">
+          <span class="me-3"><img src="./src/img/icons/chevron.png" alt=""></span>
+          <a href="#" class="fs-5 fw-semibold">Necesito asesoramiento</a>
+        </div>
+        <span><img src="./src/img/icons/logo.png" alt=""></span>
+      </div>
+    </section>
+
+  </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
 </html>

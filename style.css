@@ -1,6 +1,25 @@
+.container-nav-menu {
+  background-image: url("./src/img/icons/background.png");
+  background-size: cover;
+  /* height: 100vh; */
+  /* background-repeat: round; */
+}
+
+.container-menu {
+  height: 580px;
+}
+
+.container-services {
+  background-color: #161616;
+}
+
+hr {
+  width: 100px;
+  opacity: 100%;
+}
+
 main {
     padding: 1rem;
-    height: 100vh;
   }
   
   h1 {
