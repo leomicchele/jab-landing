@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 .container-nav-menu {
   background-image: url("./src/img/icons/background.png");
   background-size: cover;
@@ -12,7 +16,7 @@
 
 .container-menu button {
   /* width: 260px; */
-  border-radius: 20px;
+  border-radius: 25px;
   /* gap: 15px; */
 }
 
@@ -64,6 +68,11 @@ background-color: #0058b1;
 }
 .container-products img {
   width: 300px;
+}
+
+.calendly-inline-widget {
+  background-color: #161616;
+
 }
 
 /* .container-products img:hover {
