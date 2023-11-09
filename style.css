@@ -79,6 +79,36 @@ background-color: #0058b1;
   opacity: 0.1;
 } */
 
+.slider {
+      
+    
+    overflow: hidden;
+}
+
+
+.slider .slide-track {
+    display: flex;
+    animation: scroll 40s linear infinite;
+    -webkit-animation: scroll 40s linear infinite;
+    width: calc(200px * 14);
+}
+
+.slider .slide img {
+  height: 100px;
+  margin: 0 10px;
+}
+
+@keyframes scroll {
+    0% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+    100% {
+        -webkit-transform: translateX(calc(-200px * 7));
+        transform: translateX(calc(-200px * 7));
+    }
+}
+
 @media (max-width: 1399px) {
   .container-products img {
     width: 250px;
