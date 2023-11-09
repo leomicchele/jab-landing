@@ -14,40 +14,26 @@ html {
   height: 580px;
 }
 
-.container-menu button {
+.container-button button {
   /* width: 260px; */
   border-radius: 25px;
   /* gap: 15px; */
 }
 
-.container-menu a:hover {
+.container-button a:hover {
   text-decoration: none;
 }
-/* .container-menu button:hover {
-  background-color: #007fff;
-  
-}
-
-.container-menu button:active {
-background-color: #0058b1;
-}
-.container-menu button:focus-visible {
-  background-color: #0058b1;
-  } */
 
 .container-services {
-  background-color: #161616;
+  background-color: rgb(23 23 23);
 }
 
 .container-products {
-  /* background-image: url("./src/img/icons/background2.png");
-  background-size: cover;
-  background-position: center; */
-  background-color: #161616;
+  background-color: rgb(23 23 23);
 }
 
 .container-products article {
-  background-color: #161616;
+  background-color: rgb(23 23 23);
 }
 
 .container-products-absolute {
@@ -59,7 +45,7 @@ background-color: #0058b1;
 }
 
 .container-products-absolute:hover {
-  background-color: #161616cf;
+  background-color: rgb(23 23 23);
   opacity: 1;
 }
 .container-products article .container-products-absolute div{
@@ -70,14 +56,33 @@ background-color: #0058b1;
   width: 300px;
 }
 
-.calendly-inline-widget {
-  background-color: #161616;
+/* .calendly-inline-widget {
+  background-color: rgb(23 23 23);
 
+} */
+
+.container-about{
+  background-image: url("./src/img/icons/background3.png");
+  background-size: cover;
+  background-position: center;
+  /* height: 100vh; */
+  /* background-repeat: round; */
 }
 
-/* .container-products img:hover {
-  opacity: 0.1;
-} */
+.container-about > section > div {
+  height: 510px;
+}
+
+.container-about .container-image img {
+  width: auto;
+  max-width: 100%;  
+}
+
+.container-contact {
+  background-image: url("./src/img/icons/background3.png");
+  background-size: cover;
+  background-position: center;
+}
 
 .slider {
       
@@ -114,6 +119,21 @@ background-color: #0058b1;
     width: 250px;
   }
 }
+
+@media (max-width: 992px) {
+  .container-about > section > div {
+    height: auto;
+  }
+
+  .container-about .container-image img {
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+  }
+}
+
+
+
 
 hr {
   width: 100px;
