@@ -78,11 +78,7 @@ html {
   max-width: 100%;  
 }
 
-.container-contact {
-  background-image: url("./src/img/icons/background3.png");
-  background-size: cover;
-  background-position: center;
-}
+
 
 .slider {
       
@@ -102,6 +98,39 @@ html {
   height: 100px;
   margin: 0 10px;
 }
+
+.container-contact {
+  background-image: url("./src/img/icons/background4.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.input-contact {
+  display: block;
+  width: 100%;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: white;
+  background-color: transparent;
+  border: none;
+  border-bottom: white 2px solid;
+}
+
+.input-contact:focus {
+  border-color: #86b7fe;
+  outline: 0;
+}
+
+.input-contact::placeholder {
+  color: white;
+}
+
+textarea.input-contact  {
+  border: white 2px solid;
+}
+
 
 @keyframes scroll {
     0% {
