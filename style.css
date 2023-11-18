@@ -131,6 +131,12 @@ textarea.input-contact  {
   border: white 2px solid;
 }
 
+.container-footer {
+  /* height: 160px; */
+  border-top: 2px solid white;
+  background-color: rgb(23 23 23);
+
+}
 
 @keyframes scroll {
     0% {
